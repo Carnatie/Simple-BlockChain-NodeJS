@@ -1,0 +1,31 @@
+<mxfile host="65bd71144e">
+    <diagram id="4kbQgzHVDc0mX6hy1wpg" name="Página-1">
+        <mxGraphModel dx="462" dy="516" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+            <root>
+                <mxCell id="0"/>
+                <mxCell id="1" parent="0"/>
+                <mxCell id="4" value="" style="edgeStyle=none;html=1;" parent="1" source="2" target="3" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="2" value="&lt;h2&gt;&lt;b&gt;Chain&lt;/b&gt;&lt;/h2&gt;&lt;ul&gt;&lt;li&gt;getGenesisBlock&lt;/li&gt;&lt;li&gt;blockchain&lt;/li&gt;&lt;li&gt;addBlock&lt;/li&gt;&lt;li&gt;getBlock&lt;/li&gt;&lt;li&gt;getLatestBlock&lt;/li&gt;&lt;li&gt;generateNextBlock&lt;/li&gt;&lt;/ul&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="70" y="100" width="150" height="180" as="geometry"/>
+                </mxCell>
+                <mxCell id="7" value="" style="edgeStyle=none;html=1;" parent="1" source="3" target="6" edge="1">
+                    <mxGeometry relative="1" as="geometry"/>
+                </mxCell>
+                <mxCell id="3" value="&lt;h2&gt;Block&lt;/h2&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;index&lt;/li&gt;&lt;li&gt;txns&lt;/li&gt;&lt;li&gt;blockHeader&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="rounded=1;whiteSpace=wrap;html=1;align=left;" parent="1" vertex="1">
+                    <mxGeometry x="280" y="100" width="120" height="105" as="geometry"/>
+                </mxCell>
+                <mxCell id="6" value="&lt;h2&gt;BlockHeader&lt;/h2&gt;&lt;div&gt;&lt;ul&gt;&lt;li&gt;version&lt;/li&gt;&lt;li&gt;previousBlockHeader&lt;/li&gt;&lt;li&gt;markleRoot&lt;/li&gt;&lt;li&gt;time&lt;/li&gt;&lt;/ul&gt;&lt;/div&gt;" style="whiteSpace=wrap;html=1;align=left;rounded=1;" parent="1" vertex="1">
+                    <mxGeometry x="260.5" y="240" width="159" height="130" as="geometry"/>
+                </mxCell>
+                <mxCell id="8" value="index: GenesisBlock is our first block, we assign the block index with the value of 0." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" parent="1" vertex="1">
+                    <mxGeometry x="460" y="110" width="170" height="50" as="geometry"/>
+                </mxCell>
+                <mxCell id="9" value="txns: This is the raw transaction in the block. I don’t want to focus on just cryptocurrencies in this article, so think of this as any type of data you want to store." style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;fontColor=#FFFFFF;" parent="1" vertex="1">
+                    <mxGeometry x="450" y="200" width="190" height="70" as="geometry"/>
+                </mxCell>
+            </root>
+        </mxGraphModel>
+    </diagram>
+</mxfile>
